@@ -1,0 +1,547 @@
+.nav-component {
+  border-bottom: 2px solid white
+}
+
+.head-component {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.form-component {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  height: 30vh;
+}
+
+.current {}
+
+.navbar-auction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.search-bar {}
+
+.search-bar input {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.head-container {
+  background-color: rgb(78, 78, 78);
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+  border: 2px solid black;
+  display: flex;
+  height: 620px;
+}
+
+.container-1 {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.485);
+  font-size: 50px;
+  font-family: serif;
+  font-weight: bolder;
+}
+
+.container-2 {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  width: 450px;
+  margin-top: 20px;
+}
+
+.products-container {
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item-container {
+  background-color: rgb(238, 238, 238);
+  margin: 20px;
+  padding: 20px;
+  flex: 1;
+  max-width: 350px;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.433);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.name {
+  font-family: serif;
+}
+
+.type {
+  font-weight: bold;
+}
+
+.button {
+  color: white;
+  padding: 10px;
+  width: 50%;
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: larger;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form {
+  font-family: serif;
+  height: auto;
+  margin: 50px;
+}
+
+.form button {
+  cursor: pointer;
+  margin: 10px;
+  padding: 8px;
+  background-color: rgb(30, 30, 32);
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.text {
+  margin-top: 20px;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.form {
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+.form-content {
+  text-align: left;
+}
+
+
+
+.close-button {
+  border-radius: 3px;
+  display: inline-block;
+  float: right;
+  padding: 5px;
+  background-color: rgb(188, 0, 0);
+  font-weight: bolder;
+  color: white;
+}
+
+.product-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.signup-container {
+  height: 98vh;
+  width: 100vw;
+  display: flex;
+}
+
+.signup-model {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+  justify-content: right;
+}
+
+.signup-layout {
+  display: flex;
+  align-items: center;
+  width: 40vw;
+}
+
+.signup-form {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  padding: 20px;
+  border: 1px solid rgb(204, 204, 204)f;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.signup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.signup-form button {
+  background-color: #4caf50;
+  margin: 10px;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signup-form button:hover {
+  background-color: #45a049;
+}
+
+.signup-form p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.main-nav {
+  z-index: 1;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #00205b;
+  color: white;
+  height: 10vh;
+}
+
+.second-nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Logo-nav {
+  display: flex;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.anavlist {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.anavlist a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.anavlist a:hover {
+  background-color: #555;
+}
+
+/* Your CSS file */
+
+.airplane-model {
+  position: relative;
+  width: 280%;
+  height: 950px;
+}
+
+.airplane-model img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.upper-model {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.608);
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.right-model {
+  right: 0;
+  padding: 10px;
+
+}
+
+.first-section {
+  border-top: 3px solid white;
+  display: flex;
+}
+
+.right-model p {
+  background-color: rgba(113, 113, 113, 0.318);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.right-model p div {
+  width: 280px;
+  font-size: 18px;
+}
+
+.right-model p span {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.effect-section {
+  position: relative;
+  border: 2px solid rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.effect-section p {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 20px;
+}
+
+.effect-section p span {
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+}
+
+.effect-section p div {
+  margin: 10px;
+  font-size: 28px;
+  padding: 10px;
+}
+
+.last-section {
+  margin-top: 40px;
+  border: 2px solid black;
+  background-color: #00205b;
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.left {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+
+.bottom {
+  text-align: center;
+  margin-top: auto;
+}
+
+.auct-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.auct-item {
+  border: 2px solid black;
+  align-items: center;
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+}
+
+.auct-item img {
+  width: 50%;
+  height: 100%;
+}
+
+.items {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.item-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.item-type,
+.item-desc {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+.timer {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.bid-button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.bid-form {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bid-form label {
+  margin-bottom: 10px;
+}
+
+.bid-form input {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.bid-form-buttons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add media query for responsiveness */
+@media only screen and (max-width: 768px) {
+  .auct-item {
+    flex-direction: column;
+  }
+
+  .auct-item img {
+    width: 100%;
+    height: 50%;
+  }
+}
